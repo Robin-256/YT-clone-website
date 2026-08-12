@@ -3,24 +3,46 @@
     margin: 0px;
 }
 .p1{
+    background-color: aliceblue;
+    border: 3px solid black;
+    height: 750px;
+    width: 750px;
+    position: absolute;
+    left: 60px;
+    top: 70px;
+}
+.p2{
     background-color: rgb(0, 255, 153);
     border: 3px solid black;
-    height: 500px;
-    width: 450px;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    left: 140px;
+    top: 150px;
 }
 body{
+    background-color: red;
     position: relative;
     left: 280px;
     top: 50px;
 }
-a{
+h3{
   position: relative;
-    left: 30px;  
+  top: 30px;
+  left:30px;  
 }
 h1{
-     position: relative;
-    left: 50px;
+    position: relative;
+    left: 60px;
     display: inline;
     text-decoration: underline;
     text-decoration-style:dotted;
+}
+p{
+    position: relative;
+    top:50px;
+    left:30px;
+    border: 0px; 
+    height: 100px;
+    width: 450px;
 }
